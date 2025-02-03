@@ -1,0 +1,101 @@
+/* Global styles for the app */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f9;
+  color: black;
+}
+
+.app {
+  max-width: 800px;
+  margin: 10px;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-style: ridge;
+  border-width: 2px;
+  background-color: lightgrey;
+}
+
+/* Optional: Styling for when no books are found */
+.book-lists p {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+}
+
+/* Additional styles for the search bar */
+.search {
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.search input {
+  padding: 1px;
+  font-size: 20px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 4000px;
+}
+
+/* Book list styling */
+.book-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.book-item {
+  padding: 15px;
+  border: 10px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.book-item h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.book-item p {
+  font-size: 16px;
+  margin: 10px 0;
+  justify-content: center;
+}
+
+
+.books {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.book-format {
+  padding: 15px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-format h3 {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.book-format p {
+  font-size: 1rem;
+  color: #555;
+}
+
